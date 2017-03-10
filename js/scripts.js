@@ -1,11 +1,21 @@
 // Business logic
 
+var pingPong = function(number) {
+  var pingPongArray = [];
+  for (var index = 1; index <= number; index += 1) {
+    pingPongArray.push(index)
+  };
+  return pingPongArray;
+};
 
 // UI logic
 
 $(document).ready(function() {
   $('form').submit(function(event) {
-    
+    var number = parseInt($('#userInput').val());
+    var results = pingPong(number)
+    console.log(results);
 
     event.preventDefault();
   });
+});
