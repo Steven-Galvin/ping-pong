@@ -3,7 +3,11 @@
 var pingPong = function(number) {
   var pingPongArray = [];
   for (var index = 1; index <= number; index += 1) {
-    pingPongArray.push(index)
+    if (index % 3 === 0) {
+      pingPongArray.push("Ping!")
+    } else {
+      pingPongArray.push(index)
+    }
   };
   return pingPongArray;
 };
