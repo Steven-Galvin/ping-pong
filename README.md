@@ -6,7 +6,15 @@
 
 ## Description
 
-With this basic web app the user can input any positive integer and my website will display all numbers from one to the number they chose. The only difference is that all numbers divisible by three will be replaced with the word "ping!", all numbers divisible by five will be replaced with "pong!", and all numbers divisible by 15 will be replaced with "ping-pong!". Here is a link to the github pages for this app
+With this basic web app the user can input any positive integer and my website will display all numbers from one to the number they chose. The only difference is that all numbers divisible by three will be replaced with the word "ping!", all numbers divisible by five will be replaced with "pong!", and all numbers divisible by 15 will be replaced with "ping-pong!". Here is a link to the github pages for this app https://steven-galvin.github.io/ping-pong/
+
+## Specifications
+
+
+| Behaviors       | This program will take a user inputted number and display all numbers from one to the selected number | This program will replace all numbers divisible by three with the word "ping!" | This program will replace all numbers divisible by five with the word "pong!" | This program will replace all numbers divisible by 15 with the words "ping-pong!" |
+|-----------------|-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| Input Examples  | 3                                                                                                     | 5                                                                              | 6                                                                             | 16                                                                                |
+| Output Examples | 1, 2, 3                                                                                               | 1, 2, ping!, 4, 5                                                              | 1, 2, ping!, 4, pong!, ping!                                                  | 1, 2, ping!, ..., 14, ping-pong!, 16                                              |
 
 ## Setup/Installation Requirements
 
@@ -15,24 +23,6 @@ Setup is easy. All you need is:
 * A working computer or laptop with access to the internet.
 * Your text editor of choice if you want to open up and play with my code.
 * Latest versions of Google Chrome or Safari recommended as those are what I tested on.
-
-## Specifications
-
-* This program will take a user inputted number and display all numbers from one to the selected number
-  * Input example: 3
-  * Output example: 1, 2, 3
-
-* This program will replace all numbers divisible by three with the word "ping!"
-  * Input example: 5
-  * Output example: 1, 2, ping!, 4, 5
-
-* This program will replace all numbers divisible by five with the word "pong!"
-  * Input example: 6
-  * Output example: 1, 2, ping!, 4, pong!, ping!
-
-* This program will replace all numbers divisible by 15 with the words "ping-pong!"
-  * Input example: 16
-  * Output, example: 1, 2, ping!, ..., 14, ping-pong!, 16
 
 ## Known Bugs
 
