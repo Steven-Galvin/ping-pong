@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway|Roboto" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
@@ -9,26 +10,59 @@
   </head>
   <body>
     <div class="container">
-      <h2>Wanna Play Ping Pong?</h2>
-      <p>This is a simple game, but it's not like the traditional form of ping pong. Unlike the one you may know, this one is a numbers game. With this simple web app, you can give me any postive number and I will return you every number between one and the number you chose. There are a few rules to this game though.</p>
-      <p id="rules">The three rules are:</p>
-      <ul>
-        <li>All numbers divisible by three will be replaced with the word "Ping!"</li>
-        <li>All numbers divisible by five will be replaced with the word "Pong!"</li>
-        <li>All numbers divisible by 15 will be replaced with the word "Ping-pong!"</li>
-      </ul>
-      <p>And that's that! If you are ready to play, just pick a number, any number, and prepare to be amazed!</p>
-
-      <form>
-        <div class="form-group">
-          <label for="userInput">Enter any postive integer:</label>
-          <input id="userInput" class="form-control" type="text">
+      <div class="row" id="header">
+        <h1>Ping Pong</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="well">
+            <h3>Let's play a numbers game!</h3>
+            <br>
+            <p>There are only <span class="rules">three</span> rules:</p>
+            <ol>
+              <li>All numbers divisible by <span class="rules">3</span> will be replaced with the word <span class="rules">"Ping!"</span></li>
+              <li>All numbers divisible by <span class="rules">5</span> will be replaced with the word <span class="rules">"Pong!"</span></li>
+              <li>All numbers divisible by <span class="rules">15</span> will be replaced with the word <span class="rules">"Ping-pong!"</span></li>
+            </ol>
+          </div>
         </div>
-        <button type="submit" class="btn">Ping-pong!</button>
-      </form>
-      <div class="output">
-        <ul>
-        </ul>
+        <div class="col-md-4">
+          <div class="well">
+            <form>
+              <div class="form-group">
+                <label for="userInput">Enter any postive number:</label>
+                <input id="userInput" class="form-control" type="text">
+              </div>
+              <button type="submit" class="btn">Let's play!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="output">
+            <div class="well" id="pingPong">
+              <ul id="output">
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9" id="pingBG">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
       </div>
     </div>
   </body>

@@ -1,0 +1,62 @@
+body {
+  background-color: #111;
+}
+
+label {
+  color: #111;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 20px;
+  color: #111;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: rgba(68, 68, 68, 0.5) 1px 2px;
+}
+
+h3 {
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.well {
+  background-color: #777;
+  color: #111;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+  background-color: #222;
+  color: #999;
+}
+
+.rules {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.row#header {
+  background-color: #777;
+  border-style: double;
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#pingPong {
+  background-color: #777;
+  display: none;
+}
+
+#output {
+  font-family: 'Raleway', sans-serif;
+  list-style: circle;
+  font-size: 35px;
+}
+
+#pingBG {
+  background-image: url("../imgs/pingpong.png");
+  display: none;
+}
