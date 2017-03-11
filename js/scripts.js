@@ -5,6 +5,8 @@ var pingPong = function(number) {
   for (var index = 1; index <= number; index += 1) {
     if (index % 3 === 0) {
       pingPongArray.push("Ping!")
+    } else if (index % 5 === 0) {
+      pingPongArray.push("Pong!")
     } else {
       pingPongArray.push(index)
     }
